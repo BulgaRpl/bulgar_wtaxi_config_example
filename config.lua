@@ -44,7 +44,7 @@ Config.EnableBlips = true -- If false there will be no Taxi Job blips on map.
 Config.EnableNPC = true -- false if u dont want npcs at all, if true u can set npcs bellow.
 Config.DistanceToTaxiLocationPrompt = 1.5 -- Distance to NPCLOC to display Prompts
 Config.DistanceToReturnTaxiLocationPrompt = 10.0 -- Distance to Return Taxi Wagon Back display Prompts 
-Config.NPCLOC = {																														-- swx , swy, swz, swheading // these are the coords for spawn/despawn rented wagon
+Config.NPCLOC = { -- swx , swy, swz, swheading // these are the coords for spawn/despawn rented wagon
 	{ x = 2678.86, y = -1446.41, z = 45.29, heading = 29.00, model = "S_M_M_COACHTAXIDRIVER_01", name = 'Taxi Job', sprite = 1045919449, swx = 2682.86, swy = -1439.20, swz = 46.06, swheading = 301.47},
 }
 
