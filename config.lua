@@ -61,7 +61,8 @@ Config.DeliveryLocations = {
 }
 
 -- Earnings for Delivery between Min and Max
-Config.Earnings = {min = 10, max = 100}
+Config.Earnings = {min = 0.50, max = 2.50}
+Config.DistanceEarnings = true -- If true the Eearnings will be multipled X distance. For example if distance is 1500 the price will be "Config.Earnings * 1.5" (If the distance is below 1000 it will be always "Config.Earnings * 1.0".
 
 -- Blocked NPCs, these NPCs cannot be clients
 -- For example, when we have another script that has a storekeeper we add his model here so that he cannot be taken over.
@@ -94,3 +95,4 @@ end
 Config.LeftNot = function(text)
 	-- ITS CONFIGURED HERE AFTER U GET THE SCRIPT
 end
+
