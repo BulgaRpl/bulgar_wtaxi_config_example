@@ -66,6 +66,7 @@ Config.DistanceEarnings = true -- If true the Eearnings will be multiplied X dis
 
 -- Blocked NPCs, these NPCs cannot be clients
 -- For example, when we have another script that has a storekeeper we add his model here so that he cannot be taken over.
+Config.BlockAllNPCsSpawnedByOtherScripts = true -- If true any NPC that has ben spawned by a script is blocked, recommended to use
 Config.BlockedNPC = {
 	-- ITS CONFIGURED HERE AFTER U GET THE SCRIPT
 }
